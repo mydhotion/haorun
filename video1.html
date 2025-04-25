@@ -9,12 +9,12 @@
 <style>
   .video-container {
     width: 100%; /* 占满父容器宽度 */
-    max-width: 1000px; /* 最大宽度限制 */
-    margin: 0 auto; /* 居中显示 */
     aspect-ratio: 16 / 9; /* 保持16:9宽高比 */
+    max-width: 100%; /* 防止超出屏幕宽度 */
+    margin: 0 auto; /* 居中显示 */
   }
   iframe {
-    width: 100%; /* 占满父容器宽度 */
+    width: 100%; /* 占满容器宽度 */
     height: auto; /* 高度自动适应 */
     border: none; /* 去除边框 */
   }
@@ -28,5 +28,3 @@
   </iframe>
 </div>
 
-</body>
-</html>
